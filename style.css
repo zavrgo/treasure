@@ -1,0 +1,70 @@
+body {
+    background: url(bg.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
+}
+
+h1 {
+    font-family: "Berkshire Swash", serif;
+    display: inline-block;
+    background: rgb(255, 89, 0);
+    background: linear-gradient(90deg, rgba(255, 89, 0, 1) 0%, rgba(255, 167, 0, 1) 80%);
+    font-size: 100px;
+    padding: 0 5px;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 1px brown;
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: "Gloria Hallelujah", cursive;
+    background-color: white;
+    display: inline-block;
+    padding: 0 3px;
+    border-radius: 5px;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.395);
+}
+
+.karta {
+    position: relative;
+    margin-top: 10px;
+    /* для того чтобы убрать пространство между инлайн блоками */
+    font-size: 0;
+    display: inline-block;
+}
+
+
+.piratik {
+    width: 30px;
+    position: absolute;
+    top: 370px;
+    left: 90px;
+    transition: 2s;
+    transform: translate(-50%,-100%);
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* если нажать на карту, */
+/* то вместо гуд лак выводит горячоооооо. если нажать 2 раз то уже холодно */
